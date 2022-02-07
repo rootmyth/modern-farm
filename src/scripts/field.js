@@ -1,6 +1,6 @@
 const growingPlants = []
 
-export const addPlants = (seedObject) => {
+export const addPlant = (seedObject) => {
     if (Array.isArray(seedObject)) {
         for (const item of seedObject) {
             growingPlants.push(item)
