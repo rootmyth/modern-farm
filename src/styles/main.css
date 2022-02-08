@@ -11,6 +11,23 @@ textarea {
 	font-family: "Comfortaa", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
+    background: lightpink;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.plant {
+    font-size: 2em;
+    padding: 1em;
+}
+
+.plant:hover {
+    color: yellow;
+    background: darkslateblue;
 }
 
 h1,h2,h3,h4,h5,h6 {

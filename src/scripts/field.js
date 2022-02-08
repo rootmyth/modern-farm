@@ -6,7 +6,7 @@ export const addPlant = (seedObject) => {
             growingPlants.push(item)
         }
     } else {
-        growingPlants.push(item)
+        growingPlants.push(seedObject)
     }
 }
 
